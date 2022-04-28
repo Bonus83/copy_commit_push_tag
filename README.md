@@ -1,4 +1,4 @@
-# copy_file_to_another_repo_action
+# copy_commit_push_tag
 This GitHub Action copies a file from the current repository to a location in another repository
 
 # Example Workflow
@@ -24,7 +24,7 @@ This GitHub Action copies a file from the current repository to a location in an
             user_email: 'example@email.com'
             user_name: 'dmnemec'
             commit_message: 'A custom message for the commit'
-			commit_tag: 'V2.0'
+	    commit_tag: 'V2.0'
 
 # Variables
 
