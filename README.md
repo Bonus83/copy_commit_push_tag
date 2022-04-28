@@ -19,10 +19,10 @@ This GitHub Action copies a file from the current repository to a location in an
             API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
           with:
             source_file: 'test2.md'
-            destination_repo: 'dmnemec/release-test'
+            destination_repo: 'bonus83/release-test'
             destination_folder: 'test-dir'
             user_email: 'example@email.com'
-            user_name: 'dmnemec'
+            user_name: 'bonus83'
             commit_message: 'A custom message for the commit'
 	    commit_tag: 'V2.0'
 
