@@ -45,7 +45,11 @@ else
   rsync -avrh "$INPUT_SOURCE_FILE" "$DEST_COPY"
 fi
 
+echo "Switch to clone dir"
 cd "$CLONE_DIR"
+
+echo "Trust clone dir"
+git config --global --add safe.directory "$CLONE_DIR"
 
 if [ ! -z "$INPUT_DESTINATION_BRANCH_CREATE" ]
 then
